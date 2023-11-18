@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Clock with Moving Eyes and Bell Sound</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="clock-container">
+        <div id="clock">
+            <div id="clock-face">
+                <div class="roman-numerals numeral-I">I</div>
+                <div class="roman-numerals numeral-II">II</div>
+                <div class="roman-numerals numeral-III">III</div>
+                <div class="roman-numerals numeral-IV">IV</div>
+                <div class="roman-numerals numeral-V">V</div>
+                <div class="roman-numerals numeral-VI">VI</div>
+                <div class="roman-numerals numeral-VII">VII</div>
+                <div class="roman-numerals numeral-VIII">VIII</div>
+                <div class="roman-numerals numeral-IX">IX</div>
+                <div class="roman-numerals numeral-X">X</div>
+                <div class="roman-numerals numeral-XI">XI</div>
+                <div class="roman-numerals numeral-XII">XII</div>
+                <div id="eyes">
+                    <div class="eye">
+                        <div class="pupil"></div>
+                    </div>
+                    <div class="eye">
+                        <div class="pupil"></div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div id="hour-hand"></div>
+            <div id="minute-hand"></div>
+            <div id="second-hand"></div>
+            <div id="digital-clock"></div> <!-- Nuevo elemento para el reloj digital -->
+        </div>
+        <div id="clock-background"></div>
+        <audio id="bell-sound" src="https://www.soundjay.com/misc/sounds/bell-ringing-05.mp3"></audio>
+    </div>
+    <script src="reloj.js"></script>
+</body>
+</html>
